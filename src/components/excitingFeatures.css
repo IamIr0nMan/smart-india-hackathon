@@ -1,0 +1,15 @@
+.main-txt {
+  color: #0f2137;
+  font-weight: 700;
+}
+
+.sub-txt {
+  line-height: 28px;
+  color: #343d48;
+}
+
+.heading {
+  color: #0f2137;
+  font-weight: 700;
+  line-height: 55px;
+}
