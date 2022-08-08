@@ -1,0 +1,30 @@
+.btn-outline-purple {
+  color: #8d448b;
+  background-color: transparent;
+  background-image: none;
+  border-color: #8d448b;
+  /* font-weight: bold; */
+}
+
+.btn-outline-purple:hover {
+  color: #fff;
+  background-color: #8d448b;
+  border-color: #8d448b;
+}
+
+.btn-outline-purple:focus,
+.btn-outline-purple.focus {
+  box-shadow: 0 0 0 0.2rem #8d448b;
+}
+
+.nav-brand-name,
+.nav-brand-name:active:focus,
+.nav-brand-name:hover,
+.nav-brand-name:hover:active,
+.nav-brand-name:visited {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #59308d;
+}
