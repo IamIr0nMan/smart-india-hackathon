@@ -1,9 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import PreFooter from "./components/PreFooter";
 
 function App() {
   return (
     <div className="App">
-      <h1> New React Project. </h1>
+      <PreFooter />
+      {/* <Footer /> */}
     </div>
   );
 }
