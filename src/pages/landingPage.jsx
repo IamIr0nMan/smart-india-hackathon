@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import HeroSection from "../components/heroSection";
 import ExcitingFeaturesSection from "../components/excitingFeatures";
 import PreFooter from "../components/PreFooter";
+import AnotherHero from "../components/anotherHero";
 
 function LandingPage() {
   return (
@@ -14,6 +15,7 @@ function LandingPage() {
       <br />
       <br />
       <ExcitingFeaturesSection />
+      <AnotherHero />
       <PreFooter />
     </div>
   );

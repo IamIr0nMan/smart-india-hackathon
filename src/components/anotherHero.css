@@ -1,0 +1,15 @@
+.anotherHero-heading {
+  color: #02073e;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li::before {
+  content: "🟢 ";
+}
