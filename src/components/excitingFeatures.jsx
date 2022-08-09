@@ -9,7 +9,7 @@ import "./excitingFeatures.css";
 
 function ExcitingFeaturesSection() {
   return (
-    <div className="container">
+    <div className="container exciting-features-container">
       <h4 className="heading">Meet exciting feature of Health Insurance</h4>
       <div className="row row-cols-4 mt-5 pt-5">
         <div className="col">
