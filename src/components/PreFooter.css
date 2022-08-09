@@ -1,0 +1,175 @@
+.main-hero-container {
+    height: 100vh;
+    display: flex;
+    /* background-color: rgb(232, 232, 243); */
+}
+
+.main-hero-container h6 {
+    size: 48px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    letter-spacing: -1.25px;
+    line-height: 63px;
+    /* text-transform: capitalize; */
+}
+
+
+.main-hero-para {
+    font-size: 17px;
+    line-height: 35px;
+    margin: 22px 0px;
+    font-weight: 400;
+    color: #343D48;
+    font-family: 'DM Sans';
+    width: 75%;
+    /* margin: 1rem 0 0rem 0; */
+}
+
+.main-hero-para-small {
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #343D48;
+    font-family: 'DM Sans';
+    width: 75%;
+    opacity: 0.6
+}
+
+
+/* right side of hero section  */
+
+
+/*
+ .main-herosection-images {
+    position: relative;
+}
+*/
+
+.main-herosection-images img {
+    position: absolute;
+    /* width: 331px;
+    height: 724px; */
+    font-weight: 400;
+    width: 277px;
+    height: 566px;
+}
+
+/* Next-of-Hero Section */
+.second-main-hero-container {
+    height: 90vh;
+    width: 100%;
+    background: #F8FAFC;
+    font-family: 'DM Sans';
+    font-style: normal;
+    /* margin: auto auto; */
+
+}
+
+.second-main-hero-container h4 {
+    text-align: center;
+    margin: auto auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -1.5px
+}
+
+.card-title-changes {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    color: #5C2D90;
+}
+
+.card-text-main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.check {
+    padding: 10px 10px;
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+.card {
+    width: 410px;
+    height: 355px;
+    background: #FFFFFF;
+    box-shadow: 4px 10px 10px rgba(80, 80, 80, 0.16);
+    border-radius: 10px;
+}
+
+.card-body {
+    width: 316px;
+    height: 250px;
+    margin: auto;
+}
+
+.validity-section p {
+    color: #02073E;
+    margin: 4px 2px;
+}
+
+.validity-section button {
+    background: #6C429B;
+}
+
+/* From here contact us css will work
+ */
+.contact {
+    background: #F8FAFC;
+    height: 25vh;
+}
+
+.contact-insider {
+    width: 1290px;
+    margin: auto auto;
+    padding-top: 1px;
+    border-radius: 35px;
+    height: 210px;
+    background: #8D448B;
+}
+
+.contact-insider p {
+    height: 111px;
+    width: 400px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    padding: 0px 25px;
+    color: #FFFFFF;
+    line-height: 55px;
+    margin: auto 10px;
+}
+
+.contact-button {
+    width: 260px;
+    background: #FFFFFF;
+    padding-left: 60px;
+    margin: auto 90px;
+    height: 60px;
+    color: #8D448B;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    ;
+}
+
+.contact-button:hover {
+    background: #FFFFFF;
+    color: #8D448B;
+}
