@@ -1,6 +1,8 @@
 import React from "react";
 import "./PreFooter.css";
 import Pose from "../assets/images/doctor.png";
+import Footercard from "../assets/images/Footer_card.png";
+import PreFooterCard from "./PreFooterCard";
 function PreFooter() {
   return (
     <>
@@ -33,81 +35,24 @@ function PreFooter() {
       </div>
       {/* Second Portion of the PreFooter  */}
       <div class="row second-main-hero-container">
-        {/* <div className="second-section-heading"> */}
         <h4>Recommended Health Insurances</h4>
-        {/* </div> */}
         <div className="check d-flex justify-content-center">
-          <div class="card col-sm-4 mx-5">
-            <div class="">
-              <div class="card-body">
-                <h5 class="card-title card-title-changes">
-                  Special title treatment
-                </h5>
-                <p class="card-text-main">
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it to make a type specimen book. It has survived
-                  not on60s with the release tly with desktop publishing
-                  software like Aldus PageMaker includi
-                </p>
-                <div className="validity-section d-flex justify-content-between">
-                  <p>Validity : 1 year</p>
-                  <button type="button" class="btn btn-primary">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card col-sm-4 mx-5 col-sm-4">
-            <div class="">
-              <div class="card-body">
-                <h5 class="card-title card-title-changes">
-                  Special title treatment
-                </h5>
-                <p class="card-text-main">
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it to make a type specimen book. It has survived
-                  not only fivare like Aldus PageMaker includi
-                </p>
-                <div className="validity-section d-flex justify-content-between">
-                  <p>Validity : 1 year</p>
-                  <button type="button" class="btn btn-primary">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card col-sm-4 mx-5">
-            <div class="">
-              <div class="card-body">
-                <h5 class="card-title card-title-changes">
-                  Special title treatment
-                </h5>
-                <p class="card-text-main">
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it 0s with the release of Letraset sheets
-                  containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker includi
-                </p>
-                <div className="validity-section d-flex justify-content-between">
-                  <p>Validity : 1 year</p>
-                  <button type="button" class="btn btn-primary">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <PreFooterCard />
+          <PreFooterCard />
+          <PreFooterCard />
         </div>
       </div>
       {/* This is part will contain the Support for the new ticket. */}
       <div className="contact">
-        <div className="contact-insider circular d-flex justify-content-between">
-          <p>Have any question ? Here is your help!</p>
-          <button type="button" className="contact-button btn btn-primary">
+        <div className="contact-insider d-flex justify-content-between">
+          <img
+            src={Footercard}
+            alt="PreFooterCardLogo"
+            className="contact-insider"
+          />
+          {/* <button type="button" className="contact-button btn btn-primary">
             Contact Us
-          </button>
+          </button> */}
         </div>
       </div>
     </>
