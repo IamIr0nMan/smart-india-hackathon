@@ -1,0 +1,85 @@
+* {
+    font-family: 'DM Sans';
+    ;
+}
+
+.notification-header {
+    font-family: 'DM Sans';
+    padding: 1rem;
+    margin: 0px;
+}
+
+.notification-header h4 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0px;
+}
+
+.notification-header h6 {
+    font-family: 'DM Sans';
+    font-size: 0.7rem;
+    margin: 0px;
+    color: blueviolet;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    top: 10px;
+}
+
+li::before {
+    content: none;
+}
+
+
+.row {
+    width: 100%
+}
+
+.message {
+    padding: 0px;
+}
+
+.image-div {
+    margin: auto;
+}
+
+.message-image {
+    border-radius: 3.2rem;
+}
+
+.message h6 {
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.message p {
+    letter-spacing: 1px;
+    line-height: 18px;
+    margin: auto;
+    size: 10px;
+    font-size: 10px;
+
+}
+
+.notification {
+    padding: 0px;
+}
+
+/* .none {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.timer h6 {
+    margin: 0%;
+}
+
+.timer p {
+    margin: 0%;
+}
