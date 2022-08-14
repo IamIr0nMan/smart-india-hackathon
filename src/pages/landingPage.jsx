@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./landingPage.css";
+
 import Navbar from "../components/navbar";
 import HeroSection from "../components/heroSection";
 import ExcitingFeaturesSection from "../components/excitingFeatures";
@@ -8,15 +10,17 @@ import AnotherHero from "../components/anotherHero";
 
 function LandingPage() {
   return (
-    <div className="container">
-      <Navbar />
-      <br />
-      <HeroSection />
-      <br />
-      <br />
-      <ExcitingFeaturesSection />
-      <AnotherHero />
-      <PreFooter />
+    <div className="landing-page">
+      <div className="container">
+        <Navbar />
+        <br />
+        <HeroSection />
+        <br />
+        <br />
+        <ExcitingFeaturesSection />
+        <AnotherHero />
+        <PreFooter />
+      </div>
     </div>
   );
 }
