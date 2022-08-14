@@ -1,17 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import LandingPage from "./pages/landingPage";
+import Dropdown from "./components/dropdown";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/payment" element={<PaymentPage />} />
-        ------------------- Can add more routes here --------------------- */}
-      </Routes>
+      <Dropdown />
     </div>
   );
 }
