@@ -18,10 +18,10 @@ function AnotherHero() {
             Create custom landing pages with Shades that convert more visitors
             than any website, no coding required.
           </p>
-          <ul>
-            <li>Preventive Health CheckUps</li>
-            <li>Avail 100% Cashback</li>
-            <li>Enjoy Membership Discount</li>
+          <ul className="ul-bullet-points">
+            <li className="li-bullet-points">Preventive Health CheckUps</li>
+            <li className="li-bullet-points">Avail 100% Cashback</li>
+            <li className="li-bullet-points">Enjoy Membership Discount</li>
           </ul>
         </div>
       </div>

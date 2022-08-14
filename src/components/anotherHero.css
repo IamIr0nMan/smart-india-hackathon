@@ -5,11 +5,11 @@
   line-height: 55px;
 }
 
-ul {
+.ul-bullet-points {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-li::before {
+.li-bullet-points::before {
   content: "🟢 ";
 }
