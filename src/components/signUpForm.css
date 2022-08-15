@@ -1,0 +1,43 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.privacy-link {
+  text-decoration: none;
+}
+.custom-card {
+  width: 420px !important;
+  height: 440px !important;
+}
+.form-title {
+  color: #59308d;
+  font-size: large;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #8d448b;
+  border-color: #8d448b;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #743572;
+  border-color: #743572;
+}
+
+.btn-purple:focus,
+.btn-purple.focus {
+  box-shadow: 0 0 0 0.2rem #8d448b;
+}
+
+.btn-purple.disabled,
+.btn-purple:disabled {
+  color: #fff;
+  background-color: #8d448b;
+  border-color: #8d448b;
+}

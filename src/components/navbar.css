@@ -1,3 +1,11 @@
+.transparent {
+  background: transparent;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
 .btn-outline-purple {
   color: #8d448b;
   background-color: transparent;
