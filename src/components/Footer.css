@@ -1,0 +1,22 @@
+footer {
+    margin: 10px;
+}
+
+.footer-main-span {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #59308D;
+}
+
+.footer-main-span2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    opacity: 0.6;
+    color: #000000;
+}
