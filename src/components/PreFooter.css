@@ -54,14 +54,15 @@
     height: 566px;
 }
 
+
 /* Next-of-Hero Section */
 .second-main-hero-container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background: #F8FAFC;
     font-family: 'DM Sans';
     font-style: normal;
-    /* margin: auto auto; */
+    margin: auto;
 
 }
 
@@ -91,13 +92,6 @@
     line-height: 20px;
 }
 
-.check {
-    padding: 10px 10px;
-    display: flex;
-    height: 200px;
-    border-radius: 10px;
-}
-
 
 
 .card {
@@ -108,11 +102,18 @@
     border-radius: 10px;
 }
 
+.card {
+    width: 390px;
+    height: 325px;
+    border-radius: 10px;
+}
+
+/* 
 .card-body {
     width: 316px;
     height: 250px;
     margin: auto;
-}
+} */
 
 .validity-section p {
     color: #02073E;
@@ -127,37 +128,29 @@
  */
 .contact {
     background: #F8FAFC;
-    height: 25vh;
+    width: auto;
+    height: 250px;
 }
 
 .contact-insider {
-    width: 1290px;
-    margin: auto auto;
-    padding-top: 1px;
-    border-radius: 35px;
-    height: 210px;
-    background: #8D448B;
+    width: 100%;
+    margin: auto;
 }
 
-.contact-insider p {
-    height: 111px;
-    width: 400px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 55px;
-    padding: 0px 25px;
-    color: #FFFFFF;
-    line-height: 55px;
-    margin: auto 10px;
+.card-button {
+    display: inline-block;
+    position: relative;
 }
+
 
 .contact-button {
+    position: absolute;
+    bottom: -1.5em;
+    right: 6em;
+    padding: 1em 1.5em;
     width: 260px;
     background: #FFFFFF;
     padding-left: 60px;
-    margin: auto 90px;
     height: 60px;
     color: #8D448B;
     font-family: DM Sans;
@@ -166,7 +159,6 @@
     line-height: 22px;
     letter-spacing: 0.1em;
     text-align: left;
-    ;
 }
 
 .contact-button:hover {
