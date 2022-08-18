@@ -7,6 +7,7 @@ import HeroSection from "../components/heroSection";
 import ExcitingFeaturesSection from "../components/excitingFeatures";
 import PreFooter from "../components/PreFooter";
 import AnotherHero from "../components/anotherHero";
+import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
         <ExcitingFeaturesSection />
         <AnotherHero />
         <PreFooter />
+        <Footer />
       </div>
     </div>
   );
