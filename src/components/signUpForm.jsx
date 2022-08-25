@@ -42,22 +42,6 @@ function SignUpForm() {
             />
           </div>
           <div className="mb-3 py-1">
-            <label htmlFor="formGroupAge" className="form-label">
-              Age
-            </label>
-            <input
-              type="number"
-              className="form-control"
-              id="formGroupAge"
-              name="age"
-              onChange={handleChange}
-              value={formValues.age}
-              placeholder="Enter age"
-              autoComplete="off"
-              required
-            />
-          </div>
-          <div className="mb-3 py-1">
             <label htmlFor="formGroupMobile" className="form-label">
               Mobile Number
             </label>
@@ -78,26 +62,28 @@ function SignUpForm() {
               />
             </div>
           </div>
-          <div className="form-check mb-3 py-1">
+          <div className="mb-3 py-1">
+            <label htmlFor="formGroupAge" className="form-label">
+              Age of the eldest member
+            </label>
             <input
-              className="form-check-input"
-              type="checkbox"
-              id="privacyCheck"
+              type="number"
+              className="form-control"
+              id="formGroupAge"
+              name="age"
+              onChange={handleChange}
+              value={formValues.age}
+              placeholder="Enter age"
+              autoComplete="off"
               required
             />
-            <label className="form-check-label" htmlFor="privacyCheck">
-              I agree with the{" "}
-              <Link className="privacy-link" to="/">
-                Privacy Policy
-              </Link>
-            </label>
           </div>
           <div>
             <Link
               className="btn btn-purple"
               type="button"
               onClick={onSubmit}
-              to="/"
+              to="/chooseperson"
             >
               Submit
             </Link>
