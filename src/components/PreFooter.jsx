@@ -34,7 +34,7 @@ function PreFooter() {
         </section>
       </div>
       {/* Second Portion of the PreFooter  */}
-      <div class="row second-main-hero-container">
+      <div className="row second-main-hero-container">
         <h4>Recommended Health Insurances</h4>
         <div className="check d-flex justify-content-center">
           <PreFooterCard />

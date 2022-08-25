@@ -7,12 +7,15 @@ function Navbar(props) {
   return (
     <nav className={"navbar " + props.navbarStyle}>
       <div className="container-fluid">
-        <Link className="navbar-brand nav-brand-name" to="#">
+        <Link className="navbar-brand nav-brand-name" to="/">
           Aarogya Care
         </Link>
-        <button className={"btn btn-outline-purple " + props.buttonStyle}>
+        <Link
+          className={"btn btn-outline-purple " + props.buttonStyle}
+          to="/signup"
+        >
           Register Now
-        </button>
+        </Link>
       </div>
     </nav>
   );
