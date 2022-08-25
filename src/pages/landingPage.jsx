@@ -8,6 +8,7 @@ import ExcitingFeaturesSection from "../components/excitingFeatures";
 import PreFooter from "../components/PreFooter";
 import AnotherHero from "../components/anotherHero";
 import Footer from "../components/Footer";
+import ProgressBar from "../components/progressBar";
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
       <div className="container">
         <Navbar />
         <br />
+        <ProgressBar width="50%" />
         <HeroSection />
         <br />
         <br />

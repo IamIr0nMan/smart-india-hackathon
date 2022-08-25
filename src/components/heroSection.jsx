@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Pose from "../assets/images/pose_1.png";
 import "./heroSection.css";
 
@@ -16,7 +18,9 @@ function HeroSection() {
             your vision to life
           </p>
           <br />
-          <button className="btn btn-purple">Get Started</button>
+          <Link className="btn btn-purple" to="/signup">
+            Get Started
+          </Link>
         </div>
         <div className="p-2 col">
           <img
