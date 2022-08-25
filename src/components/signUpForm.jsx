@@ -17,7 +17,7 @@ function SignUpForm() {
   };
 
   return (
-    <div className="card custom-card">
+    <div className="card custom-card p-5">
       <div className="card-body">
         <div>
           <div className="mb-3 card-title">
@@ -25,7 +25,7 @@ function SignUpForm() {
               Let's get you an insurance to make you and your family covered
             </h5>
           </div>
-          <div className="mb-3">
+          <div className="mb-3 py-1">
             <label htmlFor="formGroupName" className="form-label">
               Full Name
             </label>
@@ -41,7 +41,7 @@ function SignUpForm() {
               required
             />
           </div>
-          <div className="mb-3">
+          <div className="mb-3 py-1">
             <label htmlFor="formGroupAge" className="form-label">
               Age
             </label>
@@ -57,7 +57,7 @@ function SignUpForm() {
               required
             />
           </div>
-          <div className="mb-3">
+          <div className="mb-3 py-1">
             <label htmlFor="formGroupMobile" className="form-label">
               Mobile Number
             </label>
@@ -78,7 +78,7 @@ function SignUpForm() {
               />
             </div>
           </div>
-          <div className="form-check mb-3">
+          <div className="form-check mb-3 py-1">
             <input
               className="form-check-input"
               type="checkbox"
