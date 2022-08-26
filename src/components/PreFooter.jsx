@@ -37,9 +37,15 @@ function PreFooter() {
       <div className="row second-main-hero-container">
         <h4>Recommended Health Insurances</h4>
         <div className="check d-flex justify-content-center">
-          <PreFooterCard />
-          <PreFooterCard />
-          <PreFooterCard />
+          <PreFooterCard
+            heading="Health Protection Plan"
+            description="Bajaj Allianz Health Insurance provides you with the best healthcare and medical treatment, thereby keeping you financially secure. 
+            A wide range of health insurance plans by Bajaj Allianz protect you against the increasing cost of medication in the modern era."
+          />
+          <PreFooterCard
+            heading="Family Health Insurance"
+            description="Family health insurance provides coverage to your entire family against medical expenses incurred during an emergency on an individual or floater sum insured basis. Bajaj Health Guard Family Floater Option plan which can be taken for the coverage of the entire family covering yourself, spouse, children and dependent pare."
+          />
         </div>
       </div>
       {/* This is part will contain the Support for the new ticket. */}
