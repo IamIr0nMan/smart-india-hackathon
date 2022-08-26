@@ -11,7 +11,6 @@ import Parents from "../assets/images/parents.png";
 function typeOfPerson() {
   const handleClick = (e) => {
     e.preventDefault();
-    console.log("You clicked submit.");
   };
   const handlePicture = (id) => {
     const element = document.getElementById(id);
@@ -20,10 +19,31 @@ function typeOfPerson() {
     } else {
       element.style.opacity = "1";
     }
+    let members = [];
+    switch (id) {
+      case 1:
+        members = ["Myself"];
+        break;
+      case 2:
+        members = ["Myself", "Spouse"];
+        break;
+      case 3:
+        members = ["Myself", "Spouse", "Child1"];
+        break;
+      case 4:
+        members = ["Myself", "Spouse", "Child1", "Child2"];
+        break;
+      case 5:
+        members = ["Parents"];
+        break;
+    }
+    let loginInfo = localStorage.getItem("login");
+    loginInfo = { ...loginInfo, members };
+    localStorage.setItem("login", JSON.stringify(loginInfo));
   };
   return (
     <div className="container">
-      <h3 className="main-heading-profile">Who do you want insurance for ?</h3>
+      <h3 className="main-heading-profile">Who do you want insurance for?</h3>
       <div className="row">
         <div className="col-12">
           <div className="box-wrapper">
