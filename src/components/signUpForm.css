@@ -10,8 +10,8 @@ input[type="number"]::-webkit-outer-spin-button {
   text-decoration: none;
 }
 .custom-card {
-  width: 420px !important;
-  height: 440px !important;
+  width: 500px !important;
+  height: 500px !important;
 }
 .form-title {
   color: #59308d;
