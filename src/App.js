@@ -5,6 +5,7 @@ import LandingPage from "./pages/landingPage";
 import SignUpPage from "./pages/signUpPage";
 import ChoosePerson from "./pages/choosePerson";
 import InvoicePage from "./pages/invoicePage";
+import Dashboard from "./pages/main_dashboard";
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/chooseperson" element={<ChoosePerson />} />
         <Route path="/payment" element={<InvoicePage />} />
-        {/* <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/payment" element={<PaymentPage />} />
-        ------------------- Can add more routes here --------------------- */}
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );

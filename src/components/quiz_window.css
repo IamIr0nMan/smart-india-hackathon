@@ -1,0 +1,65 @@
+.card {
+    height: 552px;
+    width: 632px;
+    border-radius: 10px;
+    margin: 2px auto;
+}
+
+.link-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+
+.card-header {
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-bottom: 0px;
+}
+
+.card-title {
+    height: 67px;
+    padding: 17px 6px;
+    background-color: #59308D;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.list-group-item {
+    margin: auto 0px;
+}
+
+.list-options {
+    padding: 14px 6px;
+    width: 300px;
+    background: #59308D;
+    margin: 12px 0px;
+    border-radius: 10px 6px;
+    color: white;
+}
+
+.btn::after::hover {
+    color: white;
+}
+
+
+@media (min-width: 900px) {
+
+    .panel {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none;
+
+    }
+}
