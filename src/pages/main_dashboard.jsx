@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./dashboard.css";
-import Main_dashboard from "../assets/images/main_dashboard.png";
-import SplitPageComponent from "../components/split_pageComponent_main_dashboard";
-import Quiz_section from "../components/quiz_section";
+import MainDashboard from "../assets/images/main_dashboard.png";
+import SplitPageComponent from "../components/splitPageComponent";
+import QuizSection from "../components/quiz_section";
 
 function main_dashboard() {
   return (
@@ -11,13 +11,13 @@ function main_dashboard() {
       <SplitPageComponent
         leftSideComponent={
           <img
-            src={Main_dashboard}
-            alt="image"
+            src={MainDashboard}
+            alt="mascot"
             className="main_dashboard_img"
           />
         }
         rightSideComponent={
-          <Quiz_section
+          <QuizSection
             question="What is health insurance?"
             options={["a", "b", "c"]}
           />

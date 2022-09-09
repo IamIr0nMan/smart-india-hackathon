@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./quiz_window.css";
-import data from "../assets/data.js";
-import QuizComponent from "../components/dashboard_answer";
+// import data from "../assets/data.js";
+// import QuizComponent from "../components/dashboard_answer";
 
 function quiz_section(props) {
   const handleClickSkip = (e) => {};
   const buttonHandler = (e) => {
     e.preventDefault();
-    e.target.value = <QuizComponent mainAnswer={data} />;
+    // e.target.value = <QuizComponent mainAnswer={data} />;
   };
   return (
-    <div className="card">
-      <div className="card-header d-flex align-item-center justify-content-between">
+    <div className="card quiz-card">
+      <div className="card-header quiz-card-header d-flex align-item-center justify-content-between">
         <div>Answer the following Question to earn reward</div>
         <div
           className="heading-skip d-flex align-item-center text-align-center"
@@ -26,7 +26,7 @@ function quiz_section(props) {
         </div>
       </div>
       <div className="card-body">
-        <div className="card-title">{props.question}</div>
+        <div className="card-title quiz-card-title">{props.question}</div>
         <p className="card-text">
           <ul className="list-group">
             <button

@@ -9,9 +9,6 @@ import MeSpouseChild from "../assets/images/mespousechild.png";
 import Parents from "../assets/images/parents.png";
 
 function typeOfPerson() {
-  const handleClick = (e) => {
-    e.preventDefault();
-  };
   const handlePicture = (id) => {
     const element = document.getElementById(id);
     if ((element.style.opacity === "1") | (element.style.opacity === "")) {
@@ -35,6 +32,8 @@ function typeOfPerson() {
         break;
       case 5:
         members = ["Parents"];
+        break;
+      default:
         break;
     }
     let loginInfo = localStorage.getItem("login");
@@ -80,7 +79,7 @@ function typeOfPerson() {
           </div>
         </div>
         <div className="button-main-div">
-          <Link className="btn btn-white" onClick={handleClick} to="/dashboard">
+          <Link className="btn btn-white" to="/dashboard">
             submit
           </Link>
         </div>
