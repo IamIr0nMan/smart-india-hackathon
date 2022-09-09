@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Smart India Hackathon 2022 - Team Exuberants
 
-This repo contains the Smart India Hackathon 2022 project for the problem statement:
+This repo contains the Smart India Hackathon 2022 project for the problem statement (provided by **Bajaj Finserv Health**):
 
 > Gamification for Awareness and Coverage Need for comprehensive Health Insurance that covers OPD and Lab
 
